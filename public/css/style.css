@@ -9,6 +9,10 @@ h2{
   border:black 2px solid;
   font-size: 300px;
 }
+
+
+/* Exo margin */
+/* fin exo margin */
 section:nth-child(1) h2:first-of-type{
   margin:50px;
 }
@@ -18,24 +22,26 @@ section:nth-child(1) h2:nth-of-type(2){
 section:nth-child(1) h2:nth-of-type(3){
   margin:auto;
 }
+/* exo padding */
+/* fin exo padding */
 section:nth-child(2) h2:first-of-type{
   padding: 50px;
 }
 section:nth-child(2) h2:nth-of-type(2){
   padding-left: 20%
 }
-
-
-
-/* Exo margin */
-/* fin exo margin */
-
-/* exo padding */
-/* fin exo padding */
-
 /* exo display */
 /* fin exo display */
-
+section:nth-child(3){
+  margin:100px ;
+  padding: 20px;
+}
+section:nth-child(3) h2{
+  display: inline;
+}
+section:nth-child(3) h2:nth-of-type(2){
+  display: none;
+}
 /* exo position */
 /* fin exo position */
 
