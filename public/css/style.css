@@ -18,6 +18,13 @@ section:nth-child(1) h2:nth-of-type(2){
 section:nth-child(1) h2:nth-of-type(3){
   margin:auto;
 }
+section:nth-child(2) h2:first-of-type{
+  padding: 50px;
+}
+section:nth-child(2) h2:nth-of-type(2){
+  padding-left: 20%
+}
+
 
 
 /* Exo margin */
