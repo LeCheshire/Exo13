@@ -42,12 +42,18 @@ section:nth-child(3) h2{
 section:nth-child(3) h2:nth-of-type(2){
   display: none;
 }
-/* exo position */
-/* fin exo position */
+/* exo float */
+/* fin exo float */
 section:nth-child(4) h2{
   width: auto;
-  float: right;
-  overflow: auto;
+  float: none;
+  overflow:scroll;
 }
+/* exo position */
+/* fin exo position */
+
+/* exo position */
+/* fin exo position */
+
 /* exo position (priorité) */
 /* fin exo position (priorité) */
