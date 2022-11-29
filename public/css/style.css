@@ -44,6 +44,10 @@ section:nth-child(3) h2:nth-of-type(2){
 }
 /* exo position */
 /* fin exo position */
-
+section:nth-child(4) h2{
+  width: auto;
+  float: right;
+  overflow: auto;
+}
 /* exo position (priorité) */
 /* fin exo position (priorité) */
